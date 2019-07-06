@@ -1,0 +1,24 @@
+{
+  "pages": [
+    "pages/slider/index",
+    "pages/index/index",
+    "pages/list/index",
+    "pages/list-medium/index",
+    "pages/list-hard/index",
+    "pages/assessment/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "white",
+    "navigationBarTitleText": "怪兽口语",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "white"
+  },
+  "plugins": {
+    "ihearing-eval": {
+      "version": "0.0.6",
+      "provider": "wx63d6102e26f0a3f8"
+    }
+  },
+  "sitemapLocation": "sitemap.json"
+}

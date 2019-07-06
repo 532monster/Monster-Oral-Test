@@ -1,0 +1,84 @@
+{
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.2.0",
+	"appid": "wxcdff2656e48718c9",
+	"projectname": "%E6%80%AA%E5%85%BD0.1",
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 5,
+			"list": [
+				{
+					"id": 0,
+					"name": "简单单词列表",
+					"pathName": "pages/list/index",
+					"query": "grade=3&unit=1",
+					"scene": null
+				},
+				{
+					"id": 1,
+					"name": "单词测评",
+					"pathName": "pages/assessment/index",
+					"query": "mode=word&index=0"
+				},
+				{
+					"id": -1,
+					"name": "目录",
+					"pathName": "pages/index/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 3,
+					"name": "一般单词列表",
+					"pathName": "pages/list-medium/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "困难单词列表",
+					"pathName": "pages/list-hard/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "滑块",
+					"pathName": "pages/slider/index",
+					"query": "",
+					"scene": null
+				}
+			]
+		}
+	}
+}

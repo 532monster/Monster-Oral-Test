@@ -1,0 +1,28 @@
+.tui-slider-head,.tui-slider-box{
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 35rpx;
+  color: #666;
+  text-align: center;
+  align-items:center;
+  justify-content: center;
+}
+.determine-container{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+.determine{
+  margin-top:100rpx;
+  border:1px solid black;
+  width:200rpx;
+  height:80rpx;
+  border-radius: 5px;
+  text-align: center;
+  align-items:center;
+  justify-content: center;
+  font-size: 36rpx;
+  font-weight: blod;
+  line-height: 80rpx;
+  color:black;
+}

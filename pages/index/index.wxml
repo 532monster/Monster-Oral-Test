@@ -1,0 +1,20 @@
+<!--index.wxml-->
+
+<view class="container">
+  <image class="program-image"src="/images/Avatar.png"></image>
+  <view>
+    <text class="program-name">怪兽口语</text>
+  </view>
+  
+    <view class = "level-container" bindtap = 'go'>
+      <text class = 'level'>easy</text>
+   </view> 
+   <view class = "level-container" bindtap = 'go1'>
+      <text class = 'level'>medium</text>
+   </view> 
+   <view class = "level-container" bindtap = 'go2'>
+      <text class = 'level'>hard</text>
+   </view> 
+
+
+</view>
