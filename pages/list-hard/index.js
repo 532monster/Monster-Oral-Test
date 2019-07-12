@@ -28,8 +28,7 @@ Page({
     grade: {
       text: '困难',
     },
-    unit: 1,
-
+   
   },
 
 

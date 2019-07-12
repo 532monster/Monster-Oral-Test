@@ -1,0 +1,50 @@
+<!--pages/game/game.wxml-->
+<view class="container">
+  <view class="title">
+   
+    <view class="unit-text">hard</view>
+  </view> 
+  <view wx:if="{{index<9||(!hasResult&&index==9)}}">
+    <image class="program-image"src="{{ life>=60?'/images/m1.png':(life > 0 && life < 60)?'/images/m2.png':'/images/m3.png'}}" ></image>
+  </view>
+  <view wx:if="{{hasResult&&index==9}}">
+    <image class="program-image"src="{{ life<=0?'/images/m3.png':'/images/m4.png'}}" ></image>
+  </view>
+
+  <view class="lifebar-container">
+    <progress class="lifebar" percent="{{life}}" color="lightgreen" stroke-width="15" active="true" active-mode='forwards'/>
+  </view>
+
+  <view class="panel" wx:if="{{life>0&&(index<9||(!hasResult&&index==9))}}">
+    <view class="assessment-info {{hasResult ? 'result' : ''}}">
+      <view class="assessment-text">
+        <text class="assessment-item" wx:if="{{mode == 'word'}}">{{assessmentItem.text}}</text>
+      </view>
+    </view>
+
+    <view class="result-wrap" wx:if="{{hasResult}}">
+      <text class="score {{ overallResult.pron_accuracy > 90 ? 'excellent' : overallResult.pron_accuracy > 60 ? 'good' : '' }} ">{{overallResult.pron_accuracy}}</text>
+    </view>
+ 
+
+
+    <view class="opt-wrap" wx:if="{{!hasResult}}">
+      <view class="speaking-wrap" catchtouchstart="streamRecord" catchtouchend="endStreamRecord">
+        <image src="/images/speaking.png" class="speaking-img"></image>
+      </view>  
+    </view>
+    <view class="opt-wrap" wx:if="{{hasResult}}">
+      <view>
+        <view class="cell-next cell-switch" bindtap="next"></view>
+      </view>
+    </view>
+  </view>
+
+  <view class="resultt">
+    <view wx:if="{{life<=0}}">WIN</view>
+    <view wx:if="{{hasResult&&index==9&&life>0}}">LOSE</view>
+  </view>
+
+</view>
+
+<view class="kongbai"></view>

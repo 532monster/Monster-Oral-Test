@@ -1,18 +1,29 @@
 {
   "pages": [
-    "pages/slider/index",
+  
     "pages/index/index",
+    "pages/index-practice/index",
+    "pages/index-game/index",
     "pages/list/index",
     "pages/list-medium/index",
     "pages/list-hard/index",
-    "pages/assessment/index"
+    "pages/assessment/index",
+    "pages/game/game",
+    "pages/game-medium/game-medium",
+    "pages/game-hard/game-hard",
+    "pages/slider/index",
+    "pages/test/test"
+
   ],
+    "requiredBackgroundModes": [
+      "audio"],
+
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "white",
+    "navigationBarBackgroundColor": "#111111",
     "navigationBarTitleText": "怪兽口语",
-    "navigationBarTextStyle": "black",
-    "backgroundColor": "white"
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "black"
   },
   "plugins": {
     "ihearing-eval": {

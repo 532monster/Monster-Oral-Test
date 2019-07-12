@@ -3,18 +3,18 @@
 <view class="container">
   <image class="program-image"src="/images/Avatar.png"></image>
   <view>
-    <text class="program-name">怪兽口语</text>
+    <text class="program-name">模式选择</text>
   </view>
   
     <view class = "level-container" bindtap = 'go'>
-      <text class = 'level'>easy</text>
+      <text class = 'level'>练习模式</text>
    </view> 
    <view class = "level-container" bindtap = 'go1'>
-      <text class = 'level'>medium</text>
-   </view> 
-   <view class = "level-container" bindtap = 'go2'>
-      <text class = 'level'>hard</text>
+      <text class = 'level'>游戏模式</text>
    </view> 
 
-
+  <view class = "setting-container" bindtap = 'go2'>
+      <image class="setting-image"src="/images/setting.jpg"></image>
+   </view> 
 </view>
+

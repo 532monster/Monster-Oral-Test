@@ -1,38 +1,24 @@
-<!-- <view class="tui-content">
-  <view class="tui-slider-head">设置step,当前设置步伐为5,当前值：{{slider1}}</view>
-  <view class="tui-slider-box">
-    <slider bindchange="changeSlider1" step="5" value="{{slider1}}"/>
+<view class="tui-content">
+  <view class="tui-slider-head">请选择评分严格度</view>
+  <view class="zong">
+     <view class="kong4" style="flex-item"></view>
+     <view class="tui-slider-box" style="flex-item">
+     <slider bindchange="changeSlider3" min="1.0" max="4.0" step="0.1" value="{{slider3}}"/>
+     <view class="kong3" style="flex-item"></view>
+  </view>
   </view>
 </view>
-<view class="tui-content">
-  <view class="tui-slider-head">是否在右侧显示当前值</view>
-  <view class="tui-slider-box">
-    <slider bindchange="changeSlider2" value="{{slider2}}" show-value/>
-  </view>
-</view> -->
-<view class="tui-content">
-  <view class="tui-slider-head">设置最大值、最小值</view>
-  <view class="tui-slider-box">
-   <slider bindchange="changeSlider3" min="1.0" max="4.0" step="0.1" value="{{slider3}}" show-value/>
-  </view>
+
+
+<view class="easyhard">
+  <view class="kong1" style="flex-item"></view>
+  <view class="easy" style="flex-item">简单</view>
+  <view class="hard" style="flex-item">困难</view>
+  <view class="kong2" style="flex-item"></view>
 </view>
-<!-- <view class="tui-content">
-  <view class="tui-slider-head">滑动选择器设置名称</view>
-  <view class="tui-slider-box">
-    <view class="tui-fl">
-      选择
-    </view>
-    <view class="tui-fl">
-      {{slider4}}
-    </view>
-    <view style="overflow:hidden">
-      <slider bindchanging="changeSlider4" value="{{slider4}}"/>
-    </view>
-  </view> -->
-<!-- </view> -->
-<view class = "determine-container" bindtap = 'go'>
-      <text class = 'determine'>确定</text>
-</view> 
 
-
-
+<view class = "container">
+  <view class = "determine-container" bindtap = 'go'>
+        <text class = 'determine'>确定</text>
+  </view> 
+</view>

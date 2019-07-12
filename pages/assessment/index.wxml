@@ -16,15 +16,26 @@
 
 
         <block wx:if="{{mode == 'word'}}">
+          
           <text class="phonetic" wx:if="{{ !hasResult }}">/{{assessmentItem.phone_info}}/</text>
+           <view class='imagine'>
+            <image src="/images/speaker.png" class="play-img word-play-img"  data-voice="{{assessmentItem.voice_id}}" bindtap="playVoice"></image>
+            </view>
           <text class="phonetic" wx:if="{{ hasResult }}">
             <text>/</text>
             <text wx:for="{{phoneticArr}}" wx:key="index" class="text-{{item.type}}">{{item.phone}}</text>
             <text>/</text>
           </text>
         </block>
-
+       
+        <block wx:if="{{mode == 'sentence'}}">
+          <view class='imagine'>
+            <image  src="/images/speaker.png" class="play-img sentence-play-img"  data-voice="{{assessmentItem.voice_id}}" bindtap="playVoice"></image>
+          </view>
+        </block>
+         <text>\n</text>
         <text class="phonetic" wx:if="{{mode == 'sentence'}}"> {{assessmentItem.ch_mean}}</text>
+      
       </view>
       <view class="assessment-mean">
         <view wx:for="{{ assessmentItem.ch_mean }}" wx:key="text">
@@ -54,8 +65,8 @@
 
   <view class="sentence-list">
     <navigator class="sentence-item" wx:for="{{ assessmentItem.sent_ids }}" wx:key="text" url="/pages/assessment/index?mode=sentence&&index={{index}}">
-      <view>
-        <image src="/images/speaker.png" class="play-img sentence-play-img"  data-voice="{{item.voice_id}}" bindtap="playVoice"></image>
+      <view class="sentence-text">
+        <!-- <image src="/images/speaker.png" class="play-img sentence-play-img"  data-voice="{{item.voice_id}}" bindtap="playVoice"></image> -->
         <text>{{item.text}}</text>
       </view>
       <view class="sent-mean-wrap">

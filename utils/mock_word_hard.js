@@ -1,14 +1,3 @@
-/*
-Tencent is pleased to support the open source community by making WeChat iHearing available.
-
-Copyright (C) 2019 THL A29 Limited, a Tencent company. All rights reserved.
-
-Licensed under the MIT License (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
-http://opensource.org/licenses/MIT
-
-Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
-*/
-
 // mock 单词数据
 module.exports = {
   "ret": 0,
@@ -16,229 +5,247 @@ module.exports = {
   "word_list": [{
     "ch_mean": [{
       "word_pos": "n. ",
-      "word_str": " 不情愿;不乐意;无意于；"
+      "word_str": "现象;杰出的人;非凡的人(或事物)"
     }],
-    "phone_info": "ˌdɪsˌɪnklɪˈneɪʃn",
+    "phone_info": "fəˈnɒmɪnən",
+    "voice_id": "https://sp0.baidu.com/-rM1hT4a2gU2pMbgoY3K/gettts?lan=uk&text=phenomenon&spd=2&source=alading",
     "sent_ids": [{
-      "ch_mean": "午饭后人们一般都懒得回办公室办公。",
-      "text": "There was a general disinclination to return to the office after lunch.",
-
+      "ch_mean": "这种形式的非暴力反抗并不是特别新的现象。",
+      "text": "This form of civil disobedience isn't a particularly new phenomenon.",
+      "voice_id": "https://sp0.baidu.com/-rM1hT4a2gU2pMbgoY3K/gettts?lan=en&text=This%20form%20of%20civil%20disobedience%20isn%27t%20a%20particularly%20new%20phenomenon&spd=2&source=alading",
     }, {
-        "ch_mean": "他们对争取这些机会明显表现出不乐意。",
-        "text": "They are showing a marked disinclination to pursue these opportunities.",
-
+      "ch_mean": "这种现象并不像它看上去那样骇人。",
+      "text": "This phenomenon is not as outrageous as it seems.",
+      "voice_id": "https://sp0.baidu.com/-rM1hT4a2gU2pMbgoY3K/gettts?lan=en&text=This%20phenomenon%20is%20not%20as%20outrageous%20as%20it%20seems&spd=2&source=alading",
     }, {
-        "ch_mean": "我怎样才能克服不愿与人交往呢？",
-        "text": "How can I conquer my disinclination to meet people? ",
-
+      "ch_mean": "这是一种有趣的科学现象，但没什么实用价值。",
+      "text": "It's an interesting scientific phenomenon, but of no practical use whatever.",
+      "voice_id": "https://sp0.baidu.com/-rM1hT4a2gU2pMbgoY3K/gettts?lan=en&text=It%27s%20an%20interesting%20scientific%20phenomenon%2C%20but%20of%20no%20practical%20use%20whatever&spd=2&source=alading",
     }, {
-        "ch_mean": "我有一股强烈的、不想干任何事的感觉。",
-        "text": "I have a strong disinclination to do anywork. ",
+      "ch_mean": "任何历史现象都不会是简单的重复。",
+      "text": "No historical phenomenon is a mere repetition of the past.",
+      "voice_id": "https://sp0.baidu.com/-rM1hT4a2gU2pMbgoY3K/gettts?lan=en&text=No%20historical%20phenomenon%20is%20a%20mere%20repetition%20of%20the%20past&spd=2&source=alading",
     }],
-    "text": "disinclination",
+    "text": "phenomenon",
 
   }, {
     "ch_mean": [{
       "word_pos": "n. ",
-      "word_str": " 蛊惑民心的政客；"
+      "word_str": "蛊惑民心的政客；"
     }],
-      "phone_info": "ˈdeməɡɒɡ",
+    "phone_info": "ˈdeməɡɒɡ",
+    "voice_id": "https://sp0.baidu.com/-rM1hT4a2gU2pMbgoY3K/gettts?lan=uk&text=demagogue&spd=2&source=alading",
     "sent_ids": [{
       "ch_mean": "那个煽动者赢得了人们的支持。",
-      "text": "The demagogue has won people's support.  ",
-
+      "text": "The demagogue has won people's support. ",
+      "voice_id": "https://sp0.baidu.com/-rM1hT4a2gU2pMbgoY3K/gettts?lan=en&text=The%20demagogue%20has%20won%20people%27s%20support&spd=2&source=alading",
     }, {
-        "ch_mean": "许多人认为希特勒是个煽动家。",
-        "text": "Many people regard Hitler as having been a demagogue.  ",
+      "ch_mean": "许多人认为希特勒是个煽动家。",
+      "text": "Many people regard Hitler as having been a demagogue. ",
+      "voice_id": "https://sp0.baidu.com/-rM1hT4a2gU2pMbgoY3K/gettts?lan=en&text=Many%20people%20regard%20Hitler%20as%20having%20been%20a%20demagogue&spd=2&source=alading",
     }, {
-        "ch_mean": "任何负责任的领袖都不会告诉人民，如果选上他，将解决他们所有的问题，只有蛊惑民心的政客才会这样做。",
-        "text": "No responsible leader, only a demagogue, would tell the people that, if elected, he will solve all their problems.  ",
+        "ch_mean": "一言以蔽之，李阳至少是一个煽动家。",
+        "text": "Li Yang is a demagogue, to say the least.",
+        "voice_id": "https://sp0.baidu.com/-rM1hT4a2gU2pMbgoY3K/gettts?lan=en&text=Li%20Yang%20is%20a%20demagogue%2C%20to%20say%20the%20least&spd=2&source=alading",
     }],
-      "text": "demagogue",
+    "text": "demagogue",
+
+  }, {
+    "ch_mean": [{
+      "word_pos": "adj. ",
+      "word_str": "想望的;可取的;值得拥有的;值得做的;引起性欲的;性感的"
+    }],
+    "phone_info": "dɪˈzaɪərəbl",
+    "voice_id": "https://sp0.baidu.com/-rM1hT4a2gU2pMbgoY3K/gettts?lan=uk&text=desirable&spd=2&source=alading",
+    "sent_ids": [{
+      "ch_mean": "拖长了的谈判并不是大家所想要的。",
+      "text": "Prolonged negotiation was not desirable.",
+      "voice_id": "https://sp0.baidu.com/-rM1hT4a2gU2pMbgoY3K/gettts?lan=en&text=Prolonged%20negotiation%20was%20not%20desirable&spd=2&source=alading",
+    }, {
+        "ch_mean": "最值得拥有的财产必然要价不菲。",
+        "text": "The most desirable properties necessarily command astonishingly high prices.",
+        "voice_id": "https://sp0.baidu.com/-rM1hT4a2gU2pMbgoY3K/gettts?lan=en&text=The%20most%20desirable%20properties%20necessarily%20command%20astonishingly%20high%20price&spd=2&source=alading",
+    }, {
+      "ch_mean": "银行与基金会的紧密合作不仅可取，而且必不可少。",
+      "text": "Close collaboration between the Bank and the Fund is not merely desirable, it is essential.",
+      "voice_id": "https://sp0.baidu.com/-rM1hT4a2gU2pMbgoY3K/gettts?lan=en&text=Close%20collaboration%20between%20the%20Bank%20and%20the%20Fund%20is%20not%20merely%20desirable%2C%20it%20is%20essential.&spd=2&source=alading",
+    }],
+    "text": "desirable",
 
   }, {
     "ch_mean": [{
       "word_pos": "n. ",
-      "word_str": " 热情洋溢;兴高采烈;喜气洋洋；"
-    }],
-      "phone_info": "ɪɡˈzjuːbərəns",
-    "sent_ids": [{
-      "ch_mean": "她勃发的热情和阳光的性格征服了我。",
-      "text": "Her burst of exuberance and her brightness overwhelmed me.",
-
+      "word_str": "疲劳;劳累;厌倦;(金属或木材的)疲劳"
     }, {
-        "ch_mean": "那尊雕塑表现出的勃勃生机让人振奋。",
-        "text": "The sheer exuberance of the sculpture was exhilarating. ",
-
+      "word_pos": "v. ",
+      "word_str": "使疲乏;使劳累;使（肌肉，器官）衰竭"
     }],
-      "text": "exuberance",
+    "phone_info": "fəˈtiːɡ",
+    "voice_id": "https://sp0.baidu.com/-rM1hT4a2gU2pMbgoY3K/gettts?lan=uk&text=fatigue&spd=2&source=alading",
+    "sent_ids": [{
+      "ch_mean": "这个事故是驾驶员疲劳所致。",
+      "text": "Driver fatigue was to blame for the accident.",
+      "voice_id": "https://sp0.baidu.com/-rM1hT4a2gU2pMbgoY3K/gettts?lan=en&text=Driver%20fatigue%20was%20to%20blame%20for%20the%20accident.&spd=2&source=alading",
+    }, {
+      "ch_mean": "我快要累倒了，眼睛也睁不开了。",
+      "text": "I was dropping with fatigue and could not keep my eyes open.",
+      "voice_id": "https://sp0.baidu.com/-rM1hT4a2gU2pMbgoY3K/gettts?lan=en&text=I%20was%20dropping%20with%20fatigue%20and%20could%20not%20keep%20my%20eyes%20open&spd=2&source=alading",
+    }, {
+      "ch_mean": "她仍然患有严重的胃痉挛，感觉疼痛、疲乏、抑郁。",
+      "text": "She continued to have severe stomach cramps, aches, fatigue, and depression.",
+      "voice_id": "https://sp0.baidu.com/-rM1hT4a2gU2pMbgoY3K/gettts?lan=en&text=She%20continued%20to%20have%20severe%20stomach%20cramps%2C%20aches%2C%20fatigue%2C%20and%20depression&spd=2&source=alading",
+    }],
+    "text": "fatigue",
 
   }, {
     "ch_mean": [{
       "word_pos": "adj. ",
-      "word_str": " 讲究礼仪的；"
+      "word_str": "杰出的;优秀的;卓越的;异常的;特别的;罕见的"
     }],
-      "phone_info": "ˌserəˈməʊniəs",
+    "phone_info": "ɪkˈsepʃənl",
+    "voice_id": "https://sp0.baidu.com/-rM1hT4a2gU2pMbgoY3K/gettts?lan=uk&text=exceptional&spd=2&source=alading",
     "sent_ids": [{
-      "ch_mean": "这是我国民间最隆重、热闹的一个传统节日。",
-      "text": "This is a among the people ceremonious, the most boisterous tradition festival of our country. ",
-
+      "ch_mean": "他的译作非常有诗意。",
+      "text": "His translation is exceptional in its poetic quality.",
+      "voice_id": "https://sp0.baidu.com/-rM1hT4a2gU2pMbgoY3K/gettts?lan=en&text=His%20translation%20is%20exceptional%20in%20its%20poetic%20quality&spd=2&source=alading",
     }, {
-        "ch_mean": "最后我们还将举行隆重的总结会。",
-        "text": "Last, we'll celebrate ceremonious sum-up meeting. ",
-
+      "ch_mean": "她是个有着非凡智慧的女子。",
+      "text": "She's a woman of exceptional intelligence.",
+      "voice_id": "https://sp0.baidu.com/-rM1hT4a2gU2pMbgoY3K/gettts?lan=en&text=She%27s%20a%20woman%20of%20exceptional%20intelligence&spd=2&source=alading",
     }, {
-        "ch_mean": "他的问候太客气了。",
-        "text": "His greeting was too ceremonious. ",
-
+      "ch_mean": "只有特殊情况才允许执行死刑。",
+      "text": "Capital punishment is allowable only under exceptional circumstances.",
+      "voice_id": "https://sp0.baidu.com/-rM1hT4a2gU2pMbgoY3K/gettts?lan=en&text=Capital%20punishment%20is%20allowable%20only%20under%20exceptional%20circumstances&spd=2&source=alading",
     }, {
-        "ch_mean": "每年的中秋节，当地会一个举行隆重的庆祝活动―火龙。",
-        "text": "In mid-autumn festival, the local have a ceremonious celebration: Fire dragon dance.  ",
-
+      "ch_mean": "这种鱼的肉异常鲜美。",
+      "text": "The flesh of this kind of fish has exceptional delicacy.",
+      "voice_id": "https://sp0.baidu.com/-rM1hT4a2gU2pMbgoY3K/gettts?lan=en&text=The%20flesh%20of%20this%20kind%20of%20fish%20has%20exceptional%20delicacy&spd=2&source=alading",
     }],
-      "text": "ceremonious",
-
-  }, {
-    "ch_mean": [{
-      "word_pos": "adj. ",
-      "word_str": " 责骂的;辱骂的;谩骂的;"
-    }],
-      "phone_info": "vɪˈtjuːpərətɪv",
-    "sent_ids": [{
-      "ch_mean": "他经常因为富有而受到辱骂。",
-      "text": "He is often the victim of vituperative remarks concerning his wealth. ",
-
-    }, {
-        "ch_mean": "他把最狗血喷头的批评针对该党领袖；他显然看不起那位领袖。",
-        "text": "His most vituperative criticism is reserved for the party leader, whom he clearly despises. ",
-
-    }, {
-        "ch_mean": "互联网聊天室里充斥着谩骂式的反外情绪。",
-        "text": "Internet chatrooms are full of vituperative anti-foreign sentiment. ",
-
-    }],
-      "text": "vituperative",
+    "text": "exceptional",
 
   }, {
     "ch_mean": [{
       "word_pos": "n. ",
-      "word_str": " 阴谋诡计;花招;欺骗"
+      "word_str": "好斗情绪;攻击性;侵犯;挑衅;侵略"
     }],
-      "phone_info": "skʌlˈdʌɡəri",
+    "phone_info": "əˈɡreʃn",
+    "voice_id": "https://sp0.baidu.com/-rM1hT4a2gU2pMbgoY3K/gettts?lan=uk&text=aggression&spd=2&source=alading",
     "sent_ids": [{
-      "ch_mean": "波动的市场可掩盖各种欺诈行为。",
-      "text": "Volatile markets can mask all kinds of skulduggery. ",
-
+      "ch_mean": "好斗性绝非男性才具有的特征。",
+      "text": "Aggression is by no means a male-only trait.",
+      "voice_id": "https://sp0.baidu.com/-rM1hT4a2gU2pMbgoY3K/gettts?lan=uk&text=aggression&spd=2&source=alading",
     }, {
-        "ch_mean": "对银行持批评意见的人士称，另一半因素正是多数银行在自行决定风险权重时作假的证据。",
-        "text": "The other half, say bank bashers, is evidence of skulduggery as most banks determine their own weights. ",
-
+      "ch_mean": "那次偷袭是一种不正当的侵略行径。",
+      "text": "The raid was an unjustifiable act of aggression.",
+      "voice_id": "https://sp0.baidu.com/-rM1hT4a2gU2pMbgoY3K/gettts?lan=en&text=The%20raid%20was%20an%20unjustifiable%20act%20of%20aggression&spd=2&source=alading",
     }, {
-        "ch_mean": "被政治诡计毁掉的事业。",
-        "text": "A career ruined by political skulduggery.  ",
-
+      "ch_mean": "如果你通过侵略谋取利益，这就成了弱肉强食。",
+      "text": "If you make aggression pay, this becomes the law of the jungle.",
+      "voice_id": "https://sp0.baidu.com/-rM1hT4a2gU2pMbgoY3K/gettts?lan=en&text=If%20you%20make%20aggression%20pay%2C%20this%20becomes%20the%20law%20of%20the%20jungle&spd=2&source=alading",
     }, {
-        "ch_mean": "现在的政治生活中有如此多的欺骗，以至于你不知道该相信谁。",
-        "text": "There's so much skulduggery in political life these days that you don't know who to trust or believe. ",
+      "ch_mean": "我们将粉碎任何侵略。",
+      "text": "We will smash any aggression.",
+      "voice_id": "https://sp0.baidu.com/-rM1hT4a2gU2pMbgoY3K/gettts?lan=en&text=We%20will%20smash%20any%20aggression&spd=2&source=alading",
     }],
-      "text": "skulduggery",
+    "text": "aggression",
 
   }, {
     "ch_mean": [{
       "word_pos": "adj. ",
-      "word_str": " 不真诚;不诚实;假装不知道;"
+      "word_str": "成体系的;系统的;有条理的;有计划有步骤的"
     }],
-      "phone_info": "ˌdɪsɪnˈdʒenjuəs",
+    "phone_info": "ˌsɪstəˈmætɪk",
+    "voice_id": "https://sp0.baidu.com/-rM1hT4a2gU2pMbgoY3K/gettts?lan=uk&text=systematic&spd=2&source=alading",
     "sent_ids": [{
-      "ch_mean": "要说我从未看到过，那就是言不由衷了。",
-      "text": "It would be disingenuous of me to claim I had never seen it.",
-
+      "ch_mean": "他们按部就班地做生意。",
+      "text": "They went about their business in a systematic way.",
+      "voice_id": "https://sp0.baidu.com/-rM1hT4a2gU2pMbgoY3K/gettts?lan=en&text=They%20went%20about%20their%20business%20in%20a%20systematic%20way&spd=2&source=alading",
     }, {
-        "ch_mean": "称这是艺术瑰宝是言不由衷。",
-        "text": "It would be disingenuous to claim that this is great art. ",
-
+      "ch_mean": "他们没有发现任何证据证明有人企图全面操纵投票。",
+      "text": "They had not found any evidence of a systematic attempt to rig the ballot.",
+      "voice_id": "https://sp0.baidu.com/-rM1hT4a2gU2pMbgoY3K/gettts?lan=en&text=They%20had%20not%20found%20any%20evidence%20of%20a%20systematic%20attempt%20to%20rig%20the%20ballot&spd=2&source=alading",
     }, {
-        "ch_mean": "但是这是虚伪的。",
-        "text": "But this is disingenuous. ",
-
+      "ch_mean": "他们开始进行彻底搜查。",
+      "text": "They commenced a systematic search.",
+      "voice_id": "https://sp0.baidu.com/-rM1hT4a2gU2pMbgoY3K/gettts?lan=en&text=They%20commenced%20a%20systematic%20search&spd=2&source=alading",
     }, {
-        "ch_mean": "他对我阿谀奉承，是居心叵测。",
-        "text": "It is disingenuous of him to flatter me.  ",
-
+      "ch_mean": "文章对影响感官检验结果的因素进行了系统的分析。",
+      "text": "This sensory test results on the impact of a systematic analysis of the factors.",
+      "voice_id": "https://sp0.baidu.com/-rM1hT4a2gU2pMbgoY3K/gettts?lan=en&text=This%20sensory%20test%20results%20on%20the%20impact%20of%20a%20systematic%20analysis%20of%20the%20fac&spd=2&source=alading",
     }],
-      "text": "disingenuous",
+    "text": "systematic",
 
   }, {
     "ch_mean": [{
       "word_pos": "adj. ",
-      "word_str": "不重要的;微不足道的;细琐的;"
+      "word_str": " 无秩序的;无计划的;组织混乱的"
     }],
-      "phone_info": "ɪnˌkɒnsɪˈkwenʃl",
+    "phone_info": "hæpˈhæzəd",
+    "voice_id": "https://sp0.baidu.com/-rM1hT4a2gU2pMbgoY3K/gettts?lan=uk&text=haphazard&spd=2&source=alading",
     "sent_ids": [{
-      "ch_mean": "貌似无足轻重的细节有时可能隐含着重大的线索。",
-      "text": "Seemingly inconsequential details can sometimes contain significant clues. ",
-
+      "ch_mean": "书架上的书堆放得杂乱无序。",
+      "text": "The books had been piled on the shelves in a haphazard fashion. ",
+      "voice_id": "https://sp0.baidu.com/-rM1hT4a2gU2pMbgoY3K/gettts?lan=en&text=The%20books%20had%20been%20piled%20on%20the%20shelves%20in%20a%20haphazard%20fashion&spd=2&source=alading",
     }, {
-        "ch_mean": "他们花了这么多时间为无关紧要的事争个没完。",
-        "text": "They spend so much time arguing the toss over inconsequential matters. ",
-
+      "ch_mean": "政府解决这一问题的方法缺乏计划。",
+      "text": "The government's approach to the problem was haphazard. ",
+      "voice_id": "https://sp0.baidu.com/-rM1hT4a2gU2pMbgoY3K/gettts?lan=en&text=The%20government%27s%20approach%20to%20the%20problem%20was%20haphazard&spd=2&source=alading",
     }, {
-        "ch_mean": "我们并不把资源问题贬为对发展无关紧要的问题。",
-        "text": "We are not dismissing resource problems as inconsequential to development.  ",
-
-    }, {
-        "ch_mean": "每个人都会怯懦，我如此渺小，我曾经忍受屈辱。",
-        "text": "Everyone can be timid, I am so inconsequential and once endured the humiliation.  ",
-
+      "ch_mean": "调查工作确实看起来缺乏计划。",
+      "text": "The investigation does seem haphazard.",
+      "voice_id": "https://sp0.baidu.com/-rM1hT4a2gU2pMbgoY3K/gettts?lan=en&text=The%20investigation%20does%20seem%20haphazard&spd=2&source=alading",
     }],
-      "text": "inconsequential",
+    "text": "haphazard",
 
   }, {
     "ch_mean": [{
       "word_pos": "adj. ",
-      "word_str": " 贫穷的;不名一文的"
+      "word_str": " 表达明确的;毫不含糊的;斩钉截铁的;"
     }],
-      "phone_info": "ˌɪmpɪˈkjuːniəs",
+    "phone_info": "ˌʌnɪˈkwɪvəkl",
+    "voice_id": "https://sp0.baidu.com/-rM1hT4a2gU2pMbgoY3K/gettts?lan=uk&text=unequivocal&spd=2&source=alading",
     "sent_ids": [{
-      "ch_mean": "我初次认识他时，他是个住在一间小房间中的穷学生。",
-      "text": "I first knew him as an impecunious student living in one small room. ",
-
+      "ch_mean": "回答是个干脆利落的“不”字。",
+      "text": "The answer was an unequivocal ‘no’.",
+      "voice_id": "https://sp0.baidu.com/-rM1hT4a2gU2pMbgoY3K/gettts?lan=en&text=The%20answer%20was%20an%20unequivocal%20%E2%80%98no%E2%80%99&spd=2&source=alading",
     }, {
-        "ch_mean": "但是有一事儿却是肯定的。他得先挣点钱，因为他现在可是身无分文呢。",
-        "text": "But one thing is sure, he must go to earn some money first for he is impecunious now. ",
-
+      "ch_mean": "昨天，给他的信息很明确：“滚开。”",
+      "text": "Yesterday, the message to him was unequivocal: 'Get out.' ",
+      "voice_id": "https://sp0.baidu.com/-rM1hT4a2gU2pMbgoY3K/gettts?lan=en&text=Yesterday%2C%20the%20message%20to%20him%20was%20unequivocal%3A%20'Get%20out.'&spd=2&source=alading",
     }, {
-        "ch_mean": "这让那些不名一文的亲戚们得以偿还逾期支票和抵押贷款，实际上也是利用别人的资源来借款。",
-        "text": "This will allow the impecunious members to pay off bad cheques and mortgages, in effect borrowing against the resources of the others.",
+      "ch_mean": "报告中传达的信息是明确的。",
+      "text": "The report's message was unequivocal.",
+      "voice_id": "https://sp0.baidu.com/-rM1hT4a2gU2pMbgoY3K/gettts?lan=en&text=The%20report%27s%20message%20was%20unequivocal&spd=2&source=alading",
     }, {
-        "ch_mean": "他们无一不是独立自主、囊中羞涩，而且能够忍受种种令人咋舌不已的不便。",
-        "text": "They are invariably independent, impecunious and able to tolerate staggering degrees of discomfort. ",   
+      "ch_mean": "我已经明确同意了她。",
+      "text": "I have her unequivocal agreement to this. ",
+      "voice_id": "https://sp0.baidu.com/-rM1hT4a2gU2pMbgoY3K/gettts?lan=en&text=I%20have%20her%20unequivocal%20agreement%20to%20this&spd=2&source=alading",
     }],
-      "text": "impecunious",
-
+    "text": "unequivocal",
   }, {
     "ch_mean": [{
-      "word_pos": "n. ",
-      "word_str": " 鉴赏家;鉴定家;行家;"
+      "word_pos": "adj. ",
+      "word_str": " 摄影的;摄制的;照片的"
     }],
-      "phone_info": "ˌkɒnəˈsɜː(r)",
+    "phone_info": "ˌfəʊtəˈɡræfɪk",
+    "voice_id": "https://sp0.baidu.com/-rM1hT4a2gU2pMbgoY3K/gettts?lan=uk&text=photographic&spd=2&source=alading",
     "sent_ids": [{
-      "ch_mean": "萨拉告诉我你是一位艺术鉴赏家。",
-      "text": "Sarah tells me you're something of an art connoisseur.",
-
+      "ch_mean": "他们把这一事件制作了一套照片实录。",
+      "text": "They produced a photographic record of the event.",
+      "voice_id": "https://sp0.baidu.com/-rM1hT4a2gU2pMbgoY3K/gettts?lan=en&text=They%20produced%20a%20photographic%20record%20of%20the%20event&spd=2&source=alading",
     }, {
-        "ch_mean": "她知道费利克斯把他自己当成鉴赏家。",
-        "text": "She knew Felix fancied himself as a connoisseur.  ",
-
+      "ch_mean": "他的绘画细致得简直和照片一样逼真。",
+      "text": "His paintings are almost photographic in detail. ",
+      "voice_id": "https://sp0.baidu.com/-rM1hT4a2gU2pMbgoY3K/gettts?lan=en&text=His%20paintings%20are%20almost%20photographic%20in%20detail&spd=2&source=alading",
     }, {
-        "ch_mean": "我认为你是鉴赏家，不是画商。",
-        "text": "I thought you were a connoisseur, not a picture-dealer.  ",
-
+      "ch_mean": "他对地图过目不忘。",
+      "text": "He had a photographic memory for maps. ",
+      "voice_id": "https://sp0.baidu.com/-rM1hT4a2gU2pMbgoY3K/gettts?lan=en&text=He%20had%20a%20photographic%20memory%20for%20maps&spd=2&source=alading",
     }, {
-        "ch_mean": "我听说你是个品酒行家。",
-        "text": "I'm told you're a wine connoisseur. ",
-
+      "ch_mean": "星期三一个摄影展在皇家艺术学院开幕。",
+      "text": "A photographic exhibition opens at the Royal College of Art on Wednesday. ",
+      "voice_id": "https://sp0.baidu.com/-rM1hT4a2gU2pMbgoY3K/gettts?lan=en&text=A%20photographic%20exhibition%20opens%20at%20the%20Royal%20College%20of%20Art%20on%20Wednesday&spd=2&source=alading",
     }],
-      "text": "connoisseur",
+    "text": "photographic",
   }]
 }

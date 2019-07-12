@@ -1,4 +1,4 @@
-.tui-slider-head,.tui-slider-box{
+.tui-slider-head{
   height: 80rpx;
   line-height: 80rpx;
   font-size: 35rpx;
@@ -7,22 +7,79 @@
   align-items:center;
   justify-content: center;
 }
-.determine-container{
+.zong{
+  flex-direction: row;
+  display:flex;
+  height: 80rpx;
+}
+.kong3{
+  width:15%;
+}
+.kong4{
+  width:15%;
+}
+.tui-slider-box{
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 35rpx;
+  color: #666;
+  width:70%;
+  text-align: center;
+  align-items:center;
+  justify-content: center;
+}
+.container{
   display:flex;
   flex-direction:column;
   align-items:center;
 }
-.determine{
+.determine-container{
   margin-top:100rpx;
-  border:1px solid black;
-  width:200rpx;
-  height:80rpx;
+  border:1px solid rgb(0, 0, 0);
+  width:180rpx;
+  height:70rpx;
   border-radius: 5px;
   text-align: center;
   align-items:center;
   justify-content: center;
-  font-size: 36rpx;
+}
+.determine{
+  font-size: 30rpx;
   font-weight: blod;
-  line-height: 80rpx;
+  width: 180rpx;
+  line-height: 70rpx;
+  text-align: center;
+  align-items:center;
   color:black;
+}
+
+
+.easyhard{
+  font-size: 30rpx;
+  flex-direction: row;
+  display:flex;
+  height:100rpx;
+}
+
+.easy{
+  width:34%;
+  height: 100%;
+  text-align: left;
+}
+
+.hard{
+  width:34%;
+  height: 100%;
+  text-align: right;
+}
+
+.kong1{
+  width:16%;
+  height: 100%;
+  text-align: right;
+}
+.kong2{
+  width:16%;
+  height: 100%;
+  text-align: right;
 }

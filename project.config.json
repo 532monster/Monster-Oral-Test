@@ -13,7 +13,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.2.0",
 	"appid": "wxcdff2656e48718c9",
-	"projectname": "%E6%80%AA%E5%85%BD0.1",
+	"projectname": "%E6%80%AA%E5%85%BD0.99",
 	"isGameTourist": false,
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
@@ -35,7 +35,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 5,
+			"current": 1,
 			"list": [
 				{
 					"id": 0,
@@ -46,14 +46,15 @@
 				},
 				{
 					"id": 1,
-					"name": "单词测评",
+					"name": "单词评测",
 					"pathName": "pages/assessment/index",
-					"query": "mode=word&index=0"
+					"query": "mode=word&index=0",
+					"scene": null
 				},
 				{
-					"id": -1,
-					"name": "目录",
-					"pathName": "pages/index/index",
+					"id": 2,
+					"name": "练习目录",
+					"pathName": "pages/index-practice/index",
 					"query": "",
 					"scene": null
 				},
@@ -75,6 +76,27 @@
 					"id": -1,
 					"name": "滑块",
 					"pathName": "pages/slider/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 6,
+					"name": "怪兽",
+					"pathName": "pages/game/game",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 7,
+					"name": "assessment",
+					"pathName": "pages/assessment/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 9,
+					"name": "test",
+					"pathName": "pages/test/test",
 					"query": "",
 					"scene": null
 				}

@@ -16,6 +16,7 @@ page {
 }
 
 
+
 .cell-next, .cell-previous {
   padding: 0 13px;
   position: relative;

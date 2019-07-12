@@ -19,14 +19,7 @@ let evalMode = {
         mode: 1,
         desc: '句子',
     },
-    peotry: {
-        mode: 2,
-        desc: '诗词',
-    },
 }
-
-
-
 
 
 module.exports = {

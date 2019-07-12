@@ -68,11 +68,20 @@
     opacity: 0.7;
 }
 
-.play-img {
-    margin-left: 20rpx;
-    width: 33rpx;
-    height: 30rpx;
+.imagine {
+   display:flex;                    
+
+ justify-content: center;       
+ 
 }
+.imagine image
+ { 
+
+  width:40rpx;
+
+  height:40rpx;
+
+  }
 
 .play-icon {
   display: inline-flex;
@@ -133,7 +142,10 @@
     box-shadow: 0 0 18px 0 rgba(8,70,66,0.06);
     border-radius: 50%;
 }
-
+.playing{
+  justify-content: center;
+    align-items: center;
+}
 
 .sentence-list {
     margin-top: 100rpx;
@@ -155,6 +167,14 @@
     opacity: 0.7;
     font-size: 34rpx;
     color: #000000;
+}
+.sentence-text{
+  margin-left: 1rpx;
+  font-size: 35rpx;
+}
+.sent-mean-wrap{
+     margin-left: 1rpx;
+     font-size: 35rpx;
 }
 
 /* reload */
