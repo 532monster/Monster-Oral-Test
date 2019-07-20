@@ -11,8 +11,7 @@
     "pages/game/game",
     "pages/game-medium/game-medium",
     "pages/game-hard/game-hard",
-    "pages/slider/index",
-    "pages/test/test"
+    "pages/slider/index"
 
   ],
     "requiredBackgroundModes": [

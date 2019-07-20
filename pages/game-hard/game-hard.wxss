@@ -1,0 +1,163 @@
+/* pages/game/game.wxss */
+.container{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 90rpx;
+}
+
+.unit-text {
+    background-image: linear-gradient(-141deg, #FFA600 0%, #FF6200 100%);
+    border-radius: 7rpx;
+    font-family: SFProDisplay-Medium;
+    font-size: 26rpx;
+    color: #FFFFFF;
+    padding: 9rpx 21rpx 9rpx 21rpx;
+    margin-bottom: 0rpx;
+}
+
+.program-image{
+  margin-top:0rpx;
+  width:300rpx;
+  height:300rpx;
+}
+.lifebar-container{
+  margin-top:20rpx;
+  border:2px solid white;
+  width:500rpx;
+  height:40rpx;
+  border-radius:5px;
+  
+}
+.lifebar{
+  padding-top:1px;
+  padding-bottom:1px;
+  padding-left: 2px;
+  color:cornflowerblue;
+}
+
+.panel {
+    padding: 1rpx;
+}
+
+.assessment-info {
+    height: 450rpx;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+
+.assessment-info.result {
+    height: 350rpx;
+}
+
+.assessment-info.result .assessment-item {
+    font-size: 46rpx;
+}
+
+
+.assessment-text {
+    max-width: 100%;
+    word-wrap:break-word;
+}
+
+.assessment-item {
+    font-size: 80rpx;
+    color: #086A64;
+    line-height: 80rpx;
+    /* padding-right: .4em; */
+}
+
+.assessment-item + .assessment-item {
+    padding-left: .4em;
+}
+
+.text-success {
+    color: #1aad19;
+}
+.text-error {
+    color: #ff4444;
+}
+.assessment-mean {
+    font-size: 30rpx;
+    color: #000000;
+    line-height: 48rpx;
+    opacity: 0.7;
+}
+
+.result-wrap {
+  margin-top:0rpx;
+    height: 100rpx;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.result-wrap
+.score {
+    font-size: 120rpx;
+    color: #666;
+}
+.score.excellent {
+    color: #FF6800;
+}
+
+.score.good {
+    color: #4C6AFC;
+}
+
+.opt-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #666;
+}
+
+.speaking-wrap {
+    margin-top:0rpx;
+    width: 150rpx;
+    height: 150rpx;
+    background: #fff;
+    border-radius: 50%;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.speaking-img{
+    margin-top:0rpx;
+    width: 150rpx;
+    height: 150rpx;
+}
+
+.cell-switch {
+   margin-top:50px;
+    width: 86rpx;
+    height: 86rpx;
+    box-sizing:border-box;
+    opacity: 0.8;
+    background: #FFFFFF;
+    box-shadow: 0 0 18px 0 rgba(8,70,66,0.06);
+    border-radius: 50%;
+}
+
+.cell-next {
+    position: relative;
+    padding:32rpx;
+}
+
+.kongbai{
+   width: 20rpx;
+}
+
+.resultt{
+  margin-top:150px;
+  font-size:40px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

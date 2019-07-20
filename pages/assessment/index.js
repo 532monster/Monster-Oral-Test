@@ -1,22 +1,17 @@
-
-
 const app = getApp()
 
 import { evalMode, assessmentItems, } from '../../utils/conf.js'
 import { language } from '../../utils/language.js'
 
-
 const languageCN = language[0]
 
 import { requestAppId, requestUrl } from '../../utils/conf.js'
-
 
 // const plugin = require('../../utils/api/manager.js')
 const plugin = requirePlugin("ihearing-eval")
 
 // 获取**全局唯一**的语音识别管理器**recordRecoManager**
 const manager = plugin.getRecordRecognitionManager()
-
 
 const overallIndex = [{
   key: 'pron_accuracy',
